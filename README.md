@@ -6,5 +6,7 @@ The jello bounce:
 ![](device20190313143513.gif)   
 
 In my project:
-![](use_example.gif){:height="50%" width="50%"}
+<br>
+<img width="400" src="https://raw.githubusercontent.com/dxtucson/JelloBadgeView/master/use_example.gif" >
+<br>
 
