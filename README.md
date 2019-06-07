@@ -2,8 +2,9 @@
 
 Still showing static red circles for new notifications? How about a sexy bounce?
 
-![](device20190313143513.gif)
+The jello bounce:                
+![](device20190313143513.gif)   
 
-The jello bounce:                |  In my project:
+In my project:
+![](use_example.gif)
 
-![](device20190313143513.gif)    |  ![](use_example.gif)
