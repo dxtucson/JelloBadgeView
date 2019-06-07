@@ -6,5 +6,5 @@ The jello bounce:
 ![](device20190313143513.gif)   
 
 In my project:
-![](use_example.gif)
+![](use_example.gif){:height="50%" width="50%"}
 
