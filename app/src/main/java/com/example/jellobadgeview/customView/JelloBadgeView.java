@@ -16,20 +16,20 @@ import com.example.jellobadgeview.R;
 
 public class JelloBadgeView extends View {
 
-    private static final float CORNER_PERCENT = 0.2f;
-    private static final float PADDING_PERCENT = 0.2f;
-    private static final float ANIMATION_PERCENT = 0.1f;
-    private static final float TEXT_PADDING = 0.3f;
+    public static float CORNER_PERCENT = 0.2f;
+    public static float PADDING_PERCENT = 0.2f;
+    public static float ANIMATION_PERCENT = 0.1f;
+    public static float TEXT_PADDING = 0.3f;
 
-    Paint mBackgroundPaint;
-    Paint mTextPaint;
+    private Paint mBackgroundPaint;
+    private Paint mTextPaint;
 
-    int mColor = 0xfff5af00; // yellow
-    float mCorner, mJelloTop, mJelloBottom, mJelloLeft, mJelloRight, mPadding, mTextLeft, mTextBottom;
-    RectF mRectF;
+    private int mColor = 0xfff5af00; // yellow
+    private float mCorner, mJelloTop, mJelloBottom, mJelloLeft, mJelloRight, mPadding, mTextLeft, mTextBottom;
+    private RectF mRectF;
 
-    String mText = null;
-    Float textSizeInPixel = null;
+    private String mText = null;
+    private Float textSizeInPixel = null;
 
     public JelloBadgeView(Context context) {
         super(context);
@@ -87,7 +87,7 @@ public class JelloBadgeView extends View {
         }
     }
 
-    float measureTextSize() {
+    private float measureTextSize() {
         if (textSizeInPixel != null) return textSizeInPixel;
         float textMargin = getWidth() * TEXT_PADDING;
         textSizeInPixel = getWidth() - 2 * textMargin;
@@ -100,7 +100,7 @@ public class JelloBadgeView extends View {
         return textSizeInPixel;
     }
 
-    void animateJello() {
+    private void animateJello() {
         ValueAnimator animator = new ValueAnimator();
         animator.setDuration(500);
         animator.setInterpolator(new JelloInterpolator());
