@@ -1,4 +1,4 @@
-package com.example.jellobadgeview.customView;
+package bouncing.jello.badge;
 
 import android.animation.Animator;
 import android.animation.ValueAnimator;
@@ -20,7 +20,7 @@ public class JelloInterpolatorTestView extends View {
 
     int mColor = 0xfff5af00; // yellow
 
-    List<com.example.jellobadgeview.customView.JelloInterpolatorTestView.Point> points;
+    List<JelloInterpolatorTestView.Point> points;
 
     public JelloInterpolatorTestView(Context context) {
         super(context);

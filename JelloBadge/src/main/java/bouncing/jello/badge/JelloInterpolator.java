@@ -1,4 +1,4 @@
-package com.example.jellobadgeview.customView;
+package bouncing.jello.badge;
 
 import android.view.animation.Interpolator;
 

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.example.jellobadgeview.customView.JelloBadgeView
+    <bouncing.jello.badge.JelloBadgeView
         android:id="@+id/jello_view"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.example.jellobadgeview.customView.JelloInterpolatorTestView
+    <bouncing.jello.badge.JelloInterpolatorTestView
         android:id="@+id/jello_test_view"
         android:layout_width="0dp"
         android:layout_height="0dp"

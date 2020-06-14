@@ -4,8 +4,9 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.jellobadgeview.customView.JelloBadgeView;
-import com.example.jellobadgeview.customView.JelloInterpolatorTestView;
+import bouncing.jello.badge.JelloBadgeView;
+import bouncing.jello.badge.JelloInterpolatorTestView;
+
 
 public class MainActivity extends AppCompatActivity {
 

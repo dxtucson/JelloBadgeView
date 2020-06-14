@@ -1,4 +1,4 @@
-package com.example.jellobadgeview.customView;
+package bouncing.jello.badge;
 
 import android.animation.Animator;
 import android.animation.ValueAnimator;
@@ -11,8 +11,6 @@ import android.graphics.Typeface;
 import android.support.v4.content.res.ResourcesCompat;
 import android.util.AttributeSet;
 import android.view.View;
-
-import com.example.jellobadgeview.R;
 
 public class JelloBadgeView extends View {
 
