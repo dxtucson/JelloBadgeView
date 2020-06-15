@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         jelloBadgeView = findViewById(R.id.jello_view);
+        jelloBadgeView.highFrequency = true;
         jelloInterpolatorTestView = findViewById(R.id.jello_test_view);
 
         animateJello();

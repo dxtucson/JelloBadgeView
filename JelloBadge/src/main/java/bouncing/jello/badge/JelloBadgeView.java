@@ -14,10 +14,11 @@ import android.view.View;
 
 public class JelloBadgeView extends View {
 
-    public static float CORNER_PERCENT = 0.2f;
-    public static float PADDING_PERCENT = 0.2f;
-    public static float ANIMATION_PERCENT = 0.1f;
-    public static float TEXT_PADDING = 0.3f;
+    public float CORNER_PERCENT = 0.2f;
+    public float PADDING_PERCENT = 0.2f;
+    public float ANIMATION_PERCENT = 0.1f;
+    public float TEXT_PADDING = 0.3f;
+    public boolean highFrequency  = false;
 
     private Paint mBackgroundPaint;
     private Paint mTextPaint;
@@ -101,7 +102,7 @@ public class JelloBadgeView extends View {
     private void animateJello() {
         ValueAnimator animator = new ValueAnimator();
         animator.setDuration(500);
-        animator.setInterpolator(new JelloInterpolator());
+        animator.setInterpolator(new JelloInterpolator(highFrequency));
         animator.setFloatValues(0f, ANIMATION_PERCENT * getMeasuredWidth());
         animator.addUpdateListener(animation -> {
             mJelloLeft = mPadding + (Float) animation.getAnimatedValue();
